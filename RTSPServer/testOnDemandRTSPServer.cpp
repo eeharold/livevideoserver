@@ -94,19 +94,19 @@ int main(int argc, char** argv) {
   // "ServerMediaSession" object, plus one or more
   // "ServerMediaSubsession" objects for each audio/video substream.
 
-  // 启动MPEG-4视频流。A MPEG-4 video elementary stream:
-  {
-    char const* streamName = "mpeg4ESVideoTest";
-    char const* inputFileName = "test.m4e";
-    ServerMediaSession* sms
-      = ServerMediaSession::createNew(*env, streamName, streamName,
-				      descriptionString);
-    sms->addSubsession(MPEG4VideoFileServerMediaSubsession
-		       ::createNew(*env, inputFileName, reuseFirstSource));
-    rtspServer->addServerMediaSession(sms);
-
-    announceStream(rtspServer, sms, streamName, inputFileName);
-  }
+//   // 启动MPEG-4视频流。A MPEG-4 video elementary stream:
+//   {
+//     char const* streamName = "mpeg4ESVideoTest";
+//     char const* inputFileName = "test.m4e";
+//     ServerMediaSession* sms
+//       = ServerMediaSession::createNew(*env, streamName, streamName,
+// 				      descriptionString);
+//     sms->addSubsession(MPEG4VideoFileServerMediaSubsession
+// 		       ::createNew(*env, inputFileName, reuseFirstSource));
+//     rtspServer->addServerMediaSession(sms);
+// 
+//     announceStream(rtspServer, sms, streamName, inputFileName);
+//   }
 
   //jiangqi
   {

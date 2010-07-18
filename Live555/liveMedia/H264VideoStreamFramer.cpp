@@ -47,7 +47,7 @@ ICameraCaptuer* MyH264VideoStreamFramer::m_pCamera = NULL;
 //测试输出控制
 #undef _TEST_OUTPUT_264  //禁止输出264文件
 #undef _TEST_OUTPUT_YUV  //禁止输出解码后的YUV
-#undef _TEST_DISPLAY     //禁止实时显示压缩视频   
+#undef _TEST_DISPLAY     //禁止实时输出压缩视频   
 
 #if defined(_TEST_DISPLAY) || defined(_TEST_OUTPUT_YUV)
 #define _TEST_DECODE
@@ -104,7 +104,7 @@ MyH264VideoStreamFramer::~MyH264VideoStreamFramer()
 #endif
 }
 
-const int VIDEO_WIDTH = 352, VIDEO_HEIGHT = 288;
+const int VIDEO_WIDTH = 320, VIDEO_HEIGHT = 240;
 
 MyH264VideoStreamFramer* MyH264VideoStreamFramer::createNew(
                                                          UsageEnvironment& env,

@@ -25,7 +25,7 @@ along with this library; if not, write to the Free Software Foundation, Inc.,
 ////////// H264VideoFileSink //////////
 
 #if defined(_TEST_CLIENT_DISPLAY)
-const int VIDEO_WIDTH = 352, VIDEO_HEIGHT = 288;
+const int VIDEO_WIDTH = 320, VIDEO_HEIGHT = 240;
 
 #include "cv.h"
 #include "highgui.h"
