@@ -51,9 +51,9 @@
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
 				PrecompiledHeaderFile=".\Release/libx264.pch"
-				AssemblerListingLocation=".\Release/"
-				ObjectFile=".\Release/"
-				ProgramDataBaseFileName=".\Release/"
+				AssemblerListingLocation=""
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="$(IntDir)\"
 				WarningLevel="3"
 				SuppressStartupBanner="true"
 				CompileAs="0"
@@ -187,8 +187,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -200,8 +200,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -216,8 +216,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -229,8 +229,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -245,8 +245,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -258,8 +258,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -274,8 +274,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -287,8 +287,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -303,8 +303,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -316,8 +316,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -332,8 +332,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -345,8 +345,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -361,8 +361,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -374,8 +374,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -390,8 +390,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/enc_release/"
-						ProgramDataBaseFileName="obj/enc_release/"
+						ObjectFile="$(IntDir)/enc_release/"
+						ProgramDataBaseFileName="$(IntDir)/enc_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -403,8 +403,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/enc_debug/"
-						ProgramDataBaseFileName="obj/enc_debug/"
+						ObjectFile="$(IntDir)/enc_debug/"
+						ProgramDataBaseFileName="$(IntDir)/enc_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -449,8 +449,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -462,8 +462,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -478,8 +478,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -491,8 +491,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -507,8 +507,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -520,8 +520,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -536,8 +536,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -549,8 +549,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -565,8 +565,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -578,8 +578,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -602,8 +602,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -615,8 +615,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -631,8 +631,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -644,8 +644,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -660,8 +660,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -673,8 +673,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -689,8 +689,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -702,8 +702,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -718,8 +718,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -731,8 +731,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -747,8 +747,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -760,8 +760,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -776,8 +776,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -789,8 +789,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -813,8 +813,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/core_release/"
-						ProgramDataBaseFileName="obj/core_release/"
+						ObjectFile="$(IntDir)/core_release/"
+						ProgramDataBaseFileName="$(IntDir)/core_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -826,8 +826,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/core_debug/"
-						ProgramDataBaseFileName="obj/core_debug/"
+						ObjectFile="$(IntDir)/core_debug/"
+						ProgramDataBaseFileName="$(IntDir)/core_debug/"
 					/>
 				</FileConfiguration>
 			</File>
@@ -1225,8 +1225,8 @@
 						Optimization="2"
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
-						ObjectFile=".\obj/util_release/"
-						ProgramDataBaseFileName="obj/util_release/"
+						ObjectFile="$(IntDir)/util_release/"
+						ProgramDataBaseFileName="$(IntDir)/util_release/"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -1238,8 +1238,8 @@
 						AdditionalIncludeDirectories=""
 						PreprocessorDefinitions=""
 						BasicRuntimeChecks="3"
-						ObjectFile=".\obj/util_debug/"
-						ProgramDataBaseFileName="obj/util_debug/"
+						ObjectFile="$(IntDir)/util_debug/"
+						ProgramDataBaseFileName="$(IntDir)/util_debug/"
 					/>
 				</FileConfiguration>
 			</File>
