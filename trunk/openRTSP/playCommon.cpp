@@ -75,7 +75,7 @@ TaskToken qosMeasurementTimerTask = NULL;
 Boolean createReceivers = True;
 Boolean outputQuickTimeFile = False;
 Boolean generateMP4Format = False;
-QuickTimeFileSink* qtOut = NULL;
+//QuickTimeFileSink* qtOut = NULL;
 Boolean outputAVIFile = False;
 AVIFileSink* aviOut = NULL;
 Boolean audioOnly = False;
@@ -637,21 +637,21 @@ int main(int argc, char** argv) {
   // Create output files:
   if (createReceivers) {
     if (outputQuickTimeFile) {
-      // Create a "QuickTimeFileSink", to write to 'stdout':
-      qtOut = QuickTimeFileSink::createNew(*env, *session, "stdout",
-					   fileSinkBufferSize,
-					   movieWidth, movieHeight,
-					   movieFPS,
-					   packetLossCompensate,
-					   syncStreams,
-					   generateHintTracks,
-					   generateMP4Format);
-      if (qtOut == NULL) {
-	*env << "Failed to create QuickTime file sink for stdout: " << env->getResultMsg();
-	shutdown();
-      }
-
-      qtOut->startPlaying(sessionAfterPlaying, NULL);
+//       // Create a "QuickTimeFileSink", to write to 'stdout':
+//       qtOut = QuickTimeFileSink::createNew(*env, *session, "stdout",
+// 					   fileSinkBufferSize,
+// 					   movieWidth, movieHeight,
+// 					   movieFPS,
+// 					   packetLossCompensate,
+// 					   syncStreams,
+// 					   generateHintTracks,
+// 					   generateMP4Format);
+//       if (qtOut == NULL) {
+// 	*env << "Failed to create QuickTime file sink for stdout: " << env->getResultMsg();
+// 	shutdown();
+//       }
+// 
+//       qtOut->startPlaying(sessionAfterPlaying, NULL);
     } else if (outputAVIFile) {
       // Create an "AVIFileSink", to write to 'stdout':
       aviOut = AVIFileSink::createNew(*env, *session, "stdout",
@@ -723,13 +723,14 @@ int main(int argc, char** argv) {
 	  sprintf(outFileName, "stdout");
 	}
 	FileSink* fileSink;
-	if (strcmp(subsession->mediumName(), "audio") == 0 &&
-	    (strcmp(subsession->codecName(), "AMR") == 0 ||
-	     strcmp(subsession->codecName(), "AMR-WB") == 0)) {
-	  // For AMR audio streams, we use a special sink that inserts AMR frame hdrs:
-	  fileSink = AMRAudioFileSink::createNew(*env, outFileName,
-						 fileSinkBufferSize, oneFilePerFrame);
-	} else if (strcmp(subsession->mediumName(), "video") == 0 &&
+// 	if (strcmp(subsession->mediumName(), "audio") == 0 &&
+// 	    (strcmp(subsession->codecName(), "AMR") == 0 ||
+// 	     strcmp(subsession->codecName(), "AMR-WB") == 0)) {
+// 	  // For AMR audio streams, we use a special sink that inserts AMR frame hdrs:
+// 	  fileSink = AMRAudioFileSink::createNew(*env, outFileName,
+// 						 fileSinkBufferSize, oneFilePerFrame);
+// 	} else 
+        if (strcmp(subsession->mediumName(), "video") == 0 &&
 	    (strcmp(subsession->codecName(), "H264") == 0)) {
 	  // For H.264 video stream, we use a special sink that insert start_codes:
 	  fileSink = H264VideoFileSink::createNew(*env, outFileName,
@@ -752,20 +753,20 @@ int main(int argc, char** argv) {
 			<< "\" subsession to 'stdout'\n";
 	  }
 
-	  if (strcmp(subsession->mediumName(), "video") == 0 &&
-	      strcmp(subsession->codecName(), "MP4V-ES") == 0 &&
-	      subsession->fmtp_config() != NULL) {
-	    // For MPEG-4 video RTP streams, the 'config' information
-	    // from the SDP description contains useful VOL etc. headers.
-	    // Insert this data at the front of the output file:
-	    unsigned configLen;
-	    unsigned char* configData
-	      = parseGeneralConfigStr(subsession->fmtp_config(), configLen);
-	    struct timeval timeNow;
-	    gettimeofday(&timeNow, NULL);
-	    fileSink->addData(configData, configLen, timeNow);
-	    delete[] configData;
-	  }
+// 	  if (strcmp(subsession->mediumName(), "video") == 0 &&
+// 	      strcmp(subsession->codecName(), "MP4V-ES") == 0 &&
+// 	      subsession->fmtp_config() != NULL) {
+// 	    // For MPEG-4 video RTP streams, the 'config' information
+// 	    // from the SDP description contains useful VOL etc. headers.
+// 	    // Insert this data at the front of the output file:
+// 	    unsigned configLen;
+// 	    unsigned char* configData
+// 	      = parseGeneralConfigStr(subsession->fmtp_config(), configLen);
+// 	    struct timeval timeNow;
+// 	    gettimeofday(&timeNow, NULL);
+// 	    fileSink->addData(configData, configLen, timeNow);
+// 	    delete[] configData;
+// 	  }
 
 	  subsession->sink->startPlaying(*(subsession->readSource()),
 					 subsessionAfterPlaying,
@@ -889,7 +890,7 @@ void tearDownStreams() {
 }
 
 void closeMediaSinks() {
-  Medium::close(qtOut);
+//   Medium::close(qtOut);
   Medium::close(aviOut);
 
   if (session == NULL) return;
@@ -1264,9 +1265,10 @@ void checkForPacketArrival(void* /*clientData*/) {
   unsigned numSubsessionsToCheck = numSubsessionsChecked;
   // Special case for "QuickTimeFileSink"s and "AVIFileSink"s:
   // They might not use all of the input sources:
-  if (qtOut != NULL) {
-    numSubsessionsToCheck = qtOut->numActiveSubsessions();
-  } else if (aviOut != NULL) {
+//   if (qtOut != NULL) {
+//     numSubsessionsToCheck = qtOut->numActiveSubsessions();
+//   } else 
+      if (aviOut != NULL) {
     numSubsessionsToCheck = aviOut->numActiveSubsessions();
   }
 

@@ -276,50 +276,6 @@
 			Name="liveMedia"
 			>
 			<File
-				RelativePath=".\liveMedia\AC3AudioRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AC3AudioRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AC3AudioStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\ADTSAudioFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\ADTSAudioFileSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioFileSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioFileSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\AMRAudioSource.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\liveMedia\AudioInputDevice.cpp"
 				>
 			</File>
@@ -348,10 +304,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\liveMedia\BitVector.hh"
-				>
-			</File>
-			<File
 				RelativePath=".\liveMedia\ByteStreamFileSource.cpp"
 				>
 			</File>
@@ -372,14 +324,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\liveMedia\DVVideoRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\DVVideoStreamFramer.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\liveMedia\FileServerMediaSubsession.cpp"
 				>
 			</File>
@@ -397,38 +341,6 @@
 			</File>
 			<File
 				RelativePath=".\liveMedia\FramedSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\GSMAudioRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H261VideoRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoStreamParser.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\H263plusVideoStreamParser.hh"
 				>
 			</File>
 			<File
@@ -456,18 +368,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\liveMedia\JPEGVideoRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\JPEGVideoRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\JPEGVideoSource.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\liveMedia\Locale.cpp"
 				>
 			</File>
@@ -485,210 +385,6 @@
 			</File>
 			<File
 				RelativePath=".\liveMedia\MediaSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADU.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADUdescriptor.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADUdescriptor.hh"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADUinterleaving.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADURTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADURTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3ADUTranscoder.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3AudioFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3FileSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3HTTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3Internals.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3Internals.hh"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3InternalsHuffman.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3InternalsHuffman.hh"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3InternalsHuffmanTable.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3StreamState.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3StreamState.hh"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MP3Transcoder.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2AudioRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2AudioRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2AudioStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2Demux.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2DemuxedElementaryStream.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2FileServerDemux.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoHTTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG1or2VideoStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2IndexFromTransportStream.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamFromESSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamFromPESSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamIndexFile.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamMultiplexor.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4ESVideoRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4ESVideoRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4GenericRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4GenericRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4LATMAudioRTPSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4LATMAudioRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEG4VideoStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEGVideoStreamFramer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEGVideoStreamParser.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\MPEGVideoStreamParser.hh"
 				>
 			</File>
 			<File
@@ -725,14 +421,6 @@
 			</File>
 			<File
 				RelativePath=".\liveMedia\QCELPAudioRTPSource.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\QuickTimeFileSink.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\QuickTimeGenericRTPSource.cpp"
 				>
 			</File>
 			<File
@@ -796,10 +484,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\liveMedia\StreamParser.hh"
-				>
-			</File>
-			<File
 				RelativePath=".\liveMedia\uLawAudioFilter.cpp"
 				>
 			</File>
@@ -807,61 +491,9 @@
 				RelativePath=".\liveMedia\VideoRTPSink.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\liveMedia\WAVAudioFileServerMediaSubsession.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\liveMedia\WAVAudioFileSource.cpp"
-				>
-			</File>
 			<Filter
 				Name="include"
 				>
-				<File
-					RelativePath=".\liveMedia\include\AC3AudioRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AC3AudioRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AC3AudioStreamFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\ADTSAudioFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\ADTSAudioFileSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioFileSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioFileSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\AMRAudioSource.hh"
-					>
-				</File>
 				<File
 					RelativePath=".\liveMedia\include\AudioInputDevice.hh"
 					>
@@ -887,6 +519,10 @@
 					>
 				</File>
 				<File
+					RelativePath=".\liveMedia\BitVector.hh"
+					>
+				</File>
+				<File
 					RelativePath=".\liveMedia\include\ByteStreamFileSource.hh"
 					>
 				</File>
@@ -907,14 +543,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\liveMedia\include\DVVideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\DVVideoStreamFramer.hh"
-					>
-				</File>
-				<File
 					RelativePath=".\liveMedia\include\FileServerMediaSubsession.hh"
 					>
 				</File>
@@ -932,30 +560,6 @@
 				</File>
 				<File
 					RelativePath=".\liveMedia\include\FramedSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\GSMAudioRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\H261VideoRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\H263plusVideoFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\H263plusVideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\H263plusVideoRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\H263plusVideoStreamFramer.hh"
 					>
 				</File>
 				<File
@@ -980,18 +584,6 @@
 				</File>
 				<File
 					RelativePath=".\liveMedia\include\InputFile.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\JPEGVideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\JPEGVideoRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\JPEGVideoSource.hh"
 					>
 				</File>
 				<File
@@ -1023,166 +615,6 @@
 					>
 				</File>
 				<File
-					RelativePath=".\liveMedia\include\MP3ADU.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3ADUinterleaving.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3ADURTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3ADURTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3ADUTranscoder.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3AudioFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3FileSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3HTTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MP3Transcoder.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2AudioRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2AudioRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2AudioStreamFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2Demux.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2DemuxedElementaryStream.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2DemuxedServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2FileServerDemux.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoHTTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoStreamDiscreteFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG1or2VideoStreamFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2IndexFromTransportStream.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamFromESSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamFromPESSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamIndexFile.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamMultiplexor.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG2TransportStreamTrickModeFilter.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4ESVideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4ESVideoRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4GenericRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4GenericRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4LATMAudioRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4LATMAudioRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4VideoFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4VideoStreamDiscreteFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEG4VideoStreamFramer.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\MPEGVideoStreamFramer.hh"
-					>
-				</File>
-				<File
 					RelativePath=".\liveMedia\include\MultiFramedRTPSink.hh"
 					>
 				</File>
@@ -1204,14 +636,6 @@
 				</File>
 				<File
 					RelativePath=".\liveMedia\include\QCELPAudioRTPSource.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\QuickTimeFileSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\QuickTimeGenericRTPSource.hh"
 					>
 				</File>
 				<File
@@ -1263,19 +687,15 @@
 					>
 				</File>
 				<File
+					RelativePath=".\liveMedia\StreamParser.hh"
+					>
+				</File>
+				<File
 					RelativePath=".\liveMedia\include\uLawAudioFilter.hh"
 					>
 				</File>
 				<File
 					RelativePath=".\liveMedia\include\VideoRTPSink.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\WAVAudioFileServerMediaSubsession.hh"
-					>
-				</File>
-				<File
-					RelativePath=".\liveMedia\include\WAVAudioFileSource.hh"
 					>
 				</File>
 			</Filter>
